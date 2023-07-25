@@ -1,0 +1,7 @@
+model_name: 'log-reg'
+model_params:
+  _target_: sklearn.linear_model.LogisticRegression
+  penalty: l2
+  C: 1.0
+  random_state: 42
+  max_iter: 10000

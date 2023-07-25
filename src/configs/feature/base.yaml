@@ -1,0 +1,18 @@
+categorical_features:
+  - "sex"
+  - "cp"
+  - "restecg"
+  - "exang"
+  - "slope"
+  - "ca"
+  - "thal"
+numerical_features:
+  - "age"
+  - "trestbps"
+  - "chol"
+  - "oldpeak"
+  - "thalach"
+features_to_drop:
+  - "fbs"
+target_col:
+  - "target"

@@ -1,0 +1,6 @@
+model_name: 'rf'
+model_params:
+  _target_: sklearn.ensemble.RandomForestClassifier
+  n_estimators: 100
+  max_depth: 3
+  random_state: 42
